@@ -1,0 +1,36 @@
+:root{
+    --index: calc(1vw + 1vh)
+}
+
+.categories{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 65%;
+
+    @media screen and (max-width: 1035px) {
+        max-width: 100%;
+    }
+    @media screen and (max-width: 700px) {
+        max-width: 80%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    @media screen and (max-width:500px) {
+        max-width: 100%;
+    }
+    li{
+        padding: 13px 20px;
+        color: white;
+        border-radius: 30px;
+        color: black;
+        cursor: pointer;
+        transition: all .4s;
+    }
+    .active{
+        background: #282828;
+        color: white
+    }
+
+}

@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100vh;
+}
+body {
+  background: #3d3d3d;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input,button{
+  background: none;
+  border: none;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.wrapper{
+  max-width: 1340px;
+  margin: 40px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  padding: 40px;
+
+  @media screen and (max-width:500px) {
+    padding: 30px 20px;
+  }
+}
+

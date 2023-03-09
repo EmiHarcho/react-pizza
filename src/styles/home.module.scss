@@ -1,0 +1,26 @@
+.home{
+    padding-top: 10px;
+
+    .home_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (max-width:980px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+          }
+    }
+    .pizza_items{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+}
